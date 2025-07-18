@@ -72,6 +72,20 @@ A live demo web app allows users to input patient data and get real-time predict
 - Probability score output
 
 ---
+##  Project Structure
+
+heart_disease_prediction/
+│
+├── heart_cleveland_upload.csv       # Dataset
+├── heart_nn_model.keras             # Trained neural network
+├── scaler.save                      # Saved scaler
+├── app.py                           # Streamlit web app
+├── heart_disease_notebook.ipynb     # Full analysis and training notebook
+└── README.md                        # This file
+
+
+---
+
 
 ## 🚀 How to Run Locally
 
